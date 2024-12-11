@@ -1,0 +1,15 @@
+POST /packages HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "packageId": 101,
+    "packageType": "Business",
+    "destination": "Paris, France",
+    "description": "A luxury business trip to Paris with a 5-star hotel and exclusive experiences.",
+    "price": 5000,
+    "availableSeats": 30,
+    "flightId": 103,  
+    "hotelId": 101,   
+    "imageUrl": "https://i.pinimg.com/736x/03/2a/56/032a56ea051f598221342ebecc2372e3.jpg" 
+}

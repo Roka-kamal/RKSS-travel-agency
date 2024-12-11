@@ -1,0 +1,22 @@
+POST /flights HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+# {
+#     "flightId": 101,
+#     "airline": "Egypt Air",
+#     "departure": "1:00 am",
+#     "arrival": "3:00 am",
+#     "price": 5000,
+#     "flightType": "One-way"
+# }
+
+
+{
+    "flightId": 103,
+    "airline": "Egypt Air",
+    "departure": "1:00 am",
+    "arrival": "3:00 am",
+    "price": 5000,
+    "flightType": "One-way"
+}

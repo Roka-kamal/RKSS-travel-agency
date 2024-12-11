@@ -1,0 +1,11 @@
+# POST http://localhost:3000/user/login
+# Content-Type: application/json
+
+# {
+#   "email": "roaamhmoudkamal@gmail.com",
+#   "password": "3880"
+# }
+
+GET http://localhost:3000/user/login?email=roaamahmoudkamal@gmail.com&password=3880
+
+

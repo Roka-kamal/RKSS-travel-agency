@@ -1,0 +1,12 @@
+PUT  http://localhost:3000/hotel-offers/102
+Content-Type: application/json
+
+
+{
+  "hotelId": 102,
+  "hotelName": "Grand Plaza Hotel",
+  "location": "Paris, France",
+  "pricePerNight": 180,
+  "availableRooms": 20,
+  "image": "https://example.com/images/Holiday-Inn-Express.jpg"
+}

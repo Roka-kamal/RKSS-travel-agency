@@ -1,0 +1,11 @@
+PUT  http://localhost:3000/payments/123
+Content-Type: application/json
+
+{
+    "paymentId" : 123,
+    "customerEmail":"roaa223359@bue.edu.eg",
+    "bookingId": 123,
+    "amount": 4000,
+    "currency":"USD",
+    "status" : "completed"
+}

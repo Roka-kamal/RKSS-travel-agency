@@ -1,0 +1,26 @@
+# PUT http://localhost:3000/bookings/123
+
+# Content-Type: application/json
+
+
+# {
+#     "bookingId": 123,
+#     "customerEmail": "roaa223359@bue.edu.eg",
+#     "bookingDate": "2025-12-07T00:00:00.000Z",
+#     "status": "Confirmed",
+#     "paymentStatus": "Paid",
+#     "packageId": 101
+# }
+
+ PUT http://localhost:3000/bookings/124
+
+Content-Type: application/json
+
+{
+    "bookingId": 124,
+    "customerEmail": "saba228013@bue.edu.eg",
+    "bookingDate": "2024-12-07T00:00:00.000Z",
+    "status": "Confirmed",
+    "paymentStatus": "Paid",
+    "packageId": 102
+}

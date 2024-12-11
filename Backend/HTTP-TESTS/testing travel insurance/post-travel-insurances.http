@@ -1,0 +1,16 @@
+POST http://localhost:3000/travel-insurance
+Content-Type: application/json
+
+# {
+#   "providerName": "SafeTravel",
+#   "coverageAmount": 4000,
+#   "coverageDetails": "Covers up to $4,000 in medical expenses and trip cancellation.",
+#   "insurancePrice": 150
+# }
+
+{
+  "providerName": "TravelCo.",
+  "coverageAmount": 5000,
+  "coverageDetails": "Covers up to $5,000 in medical expenses and trip cancellation.",
+  "insurancePrice": 200
+}

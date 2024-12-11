@@ -1,0 +1,5 @@
+# DELETE /bookings/12345 HTTP/1.1
+# Host: localhost:3000
+# Content-Type: application/json
+
+DELETE http://localhost:3000/bookings/124

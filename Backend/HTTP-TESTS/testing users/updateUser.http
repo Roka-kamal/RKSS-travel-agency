@@ -1,0 +1,25 @@
+# PUT http://localhost:3000/user/roaa223359@bue.edu.eg
+# Content-Type: application/json
+
+
+# {
+#     "fname": "Roka",
+#     "lname": "Kamal",
+#     "email": "roaa223359@bue.edu.eg",
+#     "phone": "+201558492335",
+#     "password": "3880",
+#     "dob": "2003-12-07"
+# }
+
+PUT http://localhost:3000/user/saba228013@bue.edu.eg
+Content-Type: application/json
+
+
+{
+    "fname": "Saba",
+    "lname": "mohamed",
+    "email": "saba228013@bue.edu.eg",
+    "phone": "+201115695648",
+    "password": "12345",
+    "dob": "2004-12-07"
+}

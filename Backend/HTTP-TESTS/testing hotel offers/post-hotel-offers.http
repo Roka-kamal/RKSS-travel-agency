@@ -1,0 +1,30 @@
+POST http://localhost:3000/hotel-offers
+Content-Type: application/json
+
+# {
+#   "hotelId": 101,
+#   "hotelName": "Holiday Inn Express",
+#   "location": "New York, USA",
+#   "pricePerNight": 200,
+#   "availableRooms": 25,
+#   "image": "https://example.com/images/grand-plaza.jpg"
+# }
+
+{
+  "hotelId": 102,
+  "hotelName": "Grand Plaza Hotel",
+  "location": "Paris, France",
+  "pricePerNight": 150,
+  "availableRooms": 20,
+  "image": "https://example.com/images/Holiday-Inn-Express.jpg"
+}
+
+# {
+#   "hotelId": 103,
+#   "hotelName": "four seasons Hotel",
+#   "location": "Paris, France",
+#   "pricePerNight": 150,
+#   "availableRooms": 20,
+#   "image": "https://example.com/images/Holiday-Inn-Express.jpg"
+# }
+
